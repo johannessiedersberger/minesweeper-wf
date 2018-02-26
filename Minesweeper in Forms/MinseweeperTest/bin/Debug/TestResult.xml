@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="MinseweeperTest.exe" fullname="C:/Users/jsiedersberger/Documents/Visual Studio 2017/Projects/Minesweeper WF/trunk/Minesweeper in Forms/MinseweeperTest/bin/Debug/MinseweeperTest.exe" testcasecount="10" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.390403" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="495" random-seed="99299402">
+  <command-line><![CDATA["C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\MinseweeperTest.exe"   ]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1011" name="MinseweeperTest.exe" fullname="C:/Users/jsiedersberger/Documents/Visual Studio 2017/Projects/Minesweeper WF/trunk/Minesweeper in Forms/MinseweeperTest/bin/Debug/MinseweeperTest.exe" runstate="Runnable" testcasecount="10" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.390403" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="495">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug" machine-name="W-SIEDERSB-10" user="jsiedersberger" user-domain="DE" culture="de-DE" uiculture="de-DE" os-architecture="x86" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="10808" />
+      <property name="_APPDOMAIN" value="MinseweeperTest.exe" />
+    </properties>
+    <test-suite type="TestSuite" id="1012" name="MinseweeperTest" fullname="MinseweeperTest" runstate="Runnable" testcasecount="10" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.351411" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="495">
+      <test-suite type="TestFixture" id="1000" name="MinesweeperTester" fullname="MinseweeperTest.MinesweeperTester" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" testcasecount="10" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.329505" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="495">
+        <test-case id="1004" name="CheckOpenFields" fullname="MinseweeperTest.MinesweeperTester.CheckOpenFields" methodname="CheckOpenFields" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="267740135" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.020387" asserts="28" />
+        <test-case id="1002" name="Construction" fullname="MinseweeperTest.MinesweeperTester.Construction" methodname="Construction" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="1513825102" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.004647" asserts="227" />
+        <test-case id="1008" name="FieldIndexer" fullname="MinseweeperTest.MinesweeperTester.FieldIndexer" methodname="FieldIndexer" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="1450351240" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.000633" asserts="2" />
+        <test-case id="1001" name="InvalidCreation" fullname="MinseweeperTest.MinesweeperTester.InvalidCreation" methodname="InvalidCreation" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="1680562697" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.013968" asserts="3" />
+        <test-case id="1005" name="OpelAllFields" fullname="MinseweeperTest.MinesweeperTester.OpelAllFields" methodname="OpelAllFields" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="932141150" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.001577" asserts="225" />
+        <test-case id="1007" name="OpenField" fullname="MinseweeperTest.MinesweeperTester.OpenField" methodname="OpenField" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="478703413" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.001706" asserts="3" />
+        <test-case id="1006" name="SetFlag" fullname="MinseweeperTest.MinesweeperTester.SetFlag" methodname="SetFlag" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="21216220" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.000543" asserts="3" />
+        <test-case id="1003" name="SetRandomMines" fullname="MinseweeperTest.MinesweeperTester.SetRandomMines" methodname="SetRandomMines" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="1034766050" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.000698" asserts="1" />
+        <test-case id="1009" name="TestIfCoodinateIsInRowAndColumn" fullname="MinseweeperTest.MinesweeperTester.TestIfCoodinateIsInRowAndColumn" methodname="TestIfCoodinateIsInRowAndColumn" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="974407423" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.000796" asserts="2" />
+        <test-case id="1010" name="Won" fullname="MinseweeperTest.MinesweeperTester.Won" methodname="Won" classname="MinseweeperTest.MinesweeperTester" runstate="Runnable" seed="1309733805" result="Passed" start-time="2017-11-08 11:47:19Z" end-time="2017-11-08 11:47:19Z" duration="0.001908" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

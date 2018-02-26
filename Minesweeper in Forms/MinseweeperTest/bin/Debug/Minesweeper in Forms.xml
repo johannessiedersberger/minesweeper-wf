@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Minesweeper in Forms</name>
+    </assembly>
+    <members>
+        <member name="T:Minesweeper_in_Forms.Form1">
+            <summary>
+            Enthält die Funktionalitäten der Form
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Form1.MinesweeperSpiel">
+            <summary>
+            Enthält das Spiel das durch das Auswählen des Schwierigkeitsgrades erstellt wurde
+            </summary>
+        </member>
+        <member name="M:Minesweeper_in_Forms.Form1.#ctor">
+            <summary>
+            Initialisiert alle Komponenten
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Form1.components">
+            <summary>
+            Erforderliche Designervariable.
+            </summary>
+        </member>
+        <member name="M:Minesweeper_in_Forms.Form1.Dispose(System.Boolean)">
+            <summary>
+            Verwendete Ressourcen bereinigen.
+            </summary>
+            <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+        </member>
+        <member name="M:Minesweeper_in_Forms.Form1.InitializeComponent">
+            <summary>
+            Erforderliche Methode für die Designerunterstützung.
+            Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+            </summary>
+        </member>
+        <member name="T:Minesweeper_in_Forms.Feld">
+            <summary>
+            Enthält den Status des Feldes
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.Unbekannt">
+            <summary>
+            Nicht Aufgedecktes Feld
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.Fahne">
+            <summary>
+            Feld das mit Fahne markiert ist
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.Mine">
+            <summary>
+            Feld auf dem eine Mine liegt
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N0">
+            <summary>
+            Feld um das keine Minen liegen
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N1">
+            <summary>
+            Feld um das eine Mine liegt
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N2">
+            <summary>
+            Feld um das zwei Minen liegen
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N3">
+            <summary>
+            Feld um das drei Minen liegen
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N4">
+            <summary>
+            Feld um das vier Minen liegen
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N5">
+            <summary>
+            Feld um das fünf Minen liegen
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N6">
+            <summary>
+            Feld um das sechs Minen liegen
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N7">
+            <summary>
+            Feld um das sieben Minen liegen
+            </summary>
+        </member>
+        <member name="F:Minesweeper_in_Forms.Feld.N8">
+            <summary>
+            Feld um das Acht Minen liegen
+            </summary>
+        </member>
+        <member name="T:Minesweeper_in_Forms.MinesweeperSpiel">
+            <summary>
+            Enthält die komplette Spiellogik
+            </summary>
+        </member>
+        <member name="P:Minesweeper_in_Forms.MinesweeperSpiel.Item(System.Int32,System.Int32)">
+            <summary>
+            Gibt die Zahl zurück die für den Inhalt des Feldes steht(-3 bis 8)
+            </summary>
+            <param name="reihe">Koordinate der Reihe</param>
+            <param name="spalte">Koordiante der Spalte</param>
+            <returns></returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.Inhalt(System.Int32,System.Int32)">
+            <summary>
+            Gibt den Inhalt des Felder zurück
+            </summary>
+            <param name="reihe"></param>
+            <param name="spalte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.IstAufgedeckt(System.Int32,System.Int32)">
+            <summary>
+            Gibt true zurück wenn das Feld aufgedeckt wurde
+            </summary>
+            <param name="reihe"></param>
+            <param name="spalte"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Minesweeper_in_Forms.MinesweeperSpiel.Hoehe">
+            <summary>
+            Gibt die Hoehe des Felder zurück
+            </summary>
+        </member>
+        <member name="P:Minesweeper_in_Forms.MinesweeperSpiel.Breite">
+            <summary>
+            Gibt die Breite des Feldes zurücl
+            </summary>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.#ctor(System.Int32[0:,0:])">
+            <summary>
+            Initialisirt ein Testbares Spielfeld
+            </summary>
+            <param name="inhaltFeld">Spielfeld das zum Testen verwendet wird</param>
+            
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initialisiert das Spielfeld
+            </summary>
+            <param name="hoehe">Hoehe des Spielfeldes </param>
+            <param name="breite">Breite des Spielfeldes</param>
+            <param name="minen">Anzal der Minen</param>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.MinenInDerNachbarschaftVon(System.Int32,System.Int32)">
+            <summary>
+            Gibt die Anzahl der Minen in der Umgebung eines Felder zurück
+            </summary>
+            <param name="reihe"></param>
+            <param name="spalte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.IstKoordianteInReihe(System.Int32)">
+            <summary>
+            Checkt ob die Koordinate für die Reihe verfügbar ist
+            </summary>
+            <param name="koordinate"></param>
+            <returns>Gibt true zurück wenn der Wert im Parameter in die reihe passt</returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.IstKoordianteInSpalte(System.Int32)">
+            <summary>
+            Checkt ob die Koordinate für die Spalte verfügbar ist
+            </summary>
+            <param name="koordinate"></param>
+            <returns>Gibt true zurück wenn der Wert im Parameter in die Spalte passt</returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.IstInnerhalbDesFeldes(System.Int32,System.Int32)">
+            <summary>
+            Gibt true zurück wenn der Wert im Parameter sich innerhalb des Feldes befindet
+            </summary>
+            <param name="reihe"></param>
+            <param name="spalte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.DeckeAuf(System.Int32,System.Int32)">
+            <summary>
+            Deckt die Felder auf und Setzt die Anzahl der Fahnen
+            </summary>
+            <param name="reihe">Koordinate der Reihe</param>
+            <param name="spalte">Koordinate der Spalte</param>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.SetzeFahnenMarkierung(System.Int32,System.Int32)">
+            <summary>
+            Setzt oder Entfernt eine Fahne
+            </summary>
+            <param name="reihe">Koordinate der Reihe</param>
+            <param name="spalte">Koordiante der Spalte</param>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.SpielGewonnen">
+            <summary>
+            Fragt ab ob das Spiel gewonnen wurde
+            </summary>
+            <returns>Gibt true zurück wenn die Anzahl der Ungeöffneten Felder Ohne Minen 0 ist</returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.AnzahlUngeöffneteFelderOhneMinen">
+            <summary>
+            Gibt die Anzahl der Ungeöffneten Felder ohne Minen zurück
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.MinesweeperSpiel.AnzahlMinen">
+            <summary>
+            Gibt die Anzahl der Minen im Spielfeld zurück
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Minesweeper_in_Forms.Program.Main">
+            <summary>
+            Der Haupteinstiegspunkt für die Anwendung.
+            </summary>
+        </member>
+        <member name="T:Minesweeper_in_Forms.Properties.Resources">
+            <summary>
+              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+            </summary>
+        </member>
+        <member name="P:Minesweeper_in_Forms.Properties.Resources.ResourceManager">
+            <summary>
+              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+            </summary>
+        </member>
+        <member name="P:Minesweeper_in_Forms.Properties.Resources.Culture">
+            <summary>
+              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+              Ressourcenlookups, die diese stark typisierte Ressourcenklasse verwenden.
+            </summary>
+        </member>
+    </members>
+</doc>

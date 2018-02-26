@@ -1,0 +1,14 @@
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\MinseweeperTest.exe.config
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\MinseweeperTest.exe
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\MinseweeperTest.pdb
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\Minesweeper in Forms.exe
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\nunit.framework.dll
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\nunitlite.dll
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\Minesweeper in Forms.pdb
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\Minesweeper in Forms.exe.config
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\nunit.framework.xml
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\obj\Debug\MinseweeperTest.csprojResolveAssemblyReference.cache
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\obj\Debug\MinseweeperTest.csproj.CoreCompileInputs.cache
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\obj\Debug\MinseweeperTest.exe
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\obj\Debug\MinseweeperTest.pdb
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\MinseweeperTest\bin\Debug\Minesweeper in Forms.xml

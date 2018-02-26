@@ -1,0 +1,11 @@
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\bin\Debug\Minesweeper in Forms.exe.config
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\bin\Debug\Minesweeper in Forms.exe
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\bin\Debug\Minesweeper in Forms.pdb
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\obj\Debug\Minesweeper in Forms.csprojResolveAssemblyReference.cache
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\obj\Debug\Minesweeper_in_Forms.Properties.Resources.resources
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\obj\Debug\Minesweeper in Forms.csproj.GenerateResource.Cache
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\obj\Debug\Minesweeper in Forms.csproj.CoreCompileInputs.cache
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\obj\Debug\Minesweeper in Forms.exe
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\obj\Debug\Minesweeper in Forms.pdb
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\obj\Debug\Minesweeper_in_Forms.Form1.resources
+C:\Users\jsiedersberger\Documents\Visual Studio 2017\Projects\Minesweeper WF\trunk\Minesweeper in Forms\Minesweeper in Forms\bin\Debug\Minesweeper in Forms.xml
